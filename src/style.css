@@ -12,8 +12,46 @@
 
 h1 {
   font-family: "Dela Gothic One", sans-serif;
+  font-size: 120px;
+  margin-left: 80px;
 }
 
-p {
+h2,
+h3,
+h4 {
   font-family: "Roboto", sans-serif;
+  margin-left: 80px;
+}
+
+.btn-branding {
+  border: 1px solid black;
+  margin-left: 80px;
+  padding: 14px;
+}
+.btn-branding:hover {
+  border: 1px solid black;
+  font-style: italic;
+}
+
+.intro-name {
+  font-size: 25px;
+}
+.intro-addition {
+  font-size: 14px;
+}
+
+.headshot {
+  width: 400px;
+  margin-right: 100px;
+  margin-top: 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 150px;
+}
+footer a {
+  color: black;
 }
