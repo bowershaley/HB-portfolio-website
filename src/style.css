@@ -17,9 +17,12 @@ h4 {
   margin-left: 80px;
 }
 
+.hero-buttons {
+  margin-left: 80px;
+}
+
 .btn-branding {
   border: 1px solid black;
-  margin-left: 80px;
   padding: 14px;
 }
 .btn-branding:hover {
@@ -50,6 +53,36 @@ footer a {
   color: black;
 }
 
+@media (max-width: 790px) {
+  .hero {
+    padding: 2px;
+    margin-left: 10px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  .hero h2 {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .hero h4 {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  footer {
+    font-size: 8px;
+  }
+  .hero-buttons {
+    margin-left: 10px;
+  }
+  .headshot {
+    width: 100px;
+  }
+}
+
 .projects h1 {
   font-family: var(--heading-font-family);
   color: var(--headline-color);
@@ -58,9 +91,30 @@ footer a {
 
 .projects h2 {
   font-family: var(--heading-font-family);
-  font-size: 40px;
+  font-size: 35px;
+  padding-left: 10px;
 }
 
 .projects p {
   font-family: var(--secondary-font-family);
+  padding-left: 10px;
+}
+
+.project-design {
+  background-color: rgba(149, 157, 165, 0.1);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 960px) {
+  .projects p {
+    font-size: 12px;
+  }
+  .project-design {
+    text-align: center;
+  }
+  .projects h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 }
