@@ -1,17 +1,11 @@
-.dela-gothic one-regular {
-  font-family: "Dela Gothic One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+:root {
+  --headline-color: rgba(black, 0.5);
+  --heading-font-family: "Dela Gothic One", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
 }
 
 .hero h1 {
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 120px;
   margin-left: 80px;
 }
@@ -19,7 +13,7 @@
 .hero h2,
 h3,
 h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--secondary-font-family);
   margin-left: 80px;
 }
 
