@@ -10,13 +10,13 @@
   font-style: normal;
 }
 
-h1 {
+.hero h1 {
   font-family: "Dela Gothic One", sans-serif;
   font-size: 120px;
   margin-left: 80px;
 }
 
-h2,
+.hero h2,
 h3,
 h4 {
   font-family: "Roboto", sans-serif;
