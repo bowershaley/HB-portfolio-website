@@ -1,5 +1,5 @@
 :root {
-  --headline-color: rgba(black, 0.5);
+  --headline-color: #e5e5e5;
   --heading-font-family: "Dela Gothic One", sans-serif;
   --secondary-font-family: "Roboto", sans-serif;
 }
@@ -48,4 +48,19 @@ footer {
 }
 footer a {
   color: black;
+}
+
+.projects h1 {
+  font-family: var(--heading-font-family);
+  color: var(--headline-color);
+  font-size: 100px;
+}
+
+.projects h2 {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+}
+
+.projects p {
+  font-family: var(--secondary-font-family);
 }
