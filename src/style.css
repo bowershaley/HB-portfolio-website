@@ -159,6 +159,9 @@ footer a {
 }
 
 @media (max-width: 790px) {
+  nav .px-5 {
+    padding-left: 0 !important;
+  }
   .hero {
     padding: 2px;
     margin-left: 10px;
