@@ -52,40 +52,6 @@ footer a {
   color: black;
 }
 
-@media (max-width: 790px) {
-  .hero {
-    padding: 2px;
-    margin-left: 10px;
-  }
-  .hero h1 {
-    font-size: 40px;
-    margin-left: 10px;
-  }
-
-  .hero h2 {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-  .hero h4 {
-    font-size: 12px;
-    margin-left: 10px;
-  }
-
-  .hero footer {
-    font-size: 8px;
-  }
-  .hero-buttons {
-    margin-left: 10px;
-  }
-  .headshot-index {
-    width: 100px;
-  }
-
-  .about-section img {
-    margin-top: 30px;
-  }
-}
-
 .projects h1 {
   font-family: var(--heading-font-family);
   color: var(--headline-color);
@@ -109,18 +75,6 @@ footer a {
   margin-top: 30px;
 }
 
-@media (max-width: 960px) {
-  .projects p {
-    font-size: 12px;
-  }
-  .project-design {
-    text-align: center;
-  }
-  .projects h1 {
-    font-size: 50px;
-    text-align: center;
-  }
-}
 .about-header {
   font-family: var(--heading-font-family);
   color: var(--headline-color);
@@ -145,4 +99,61 @@ footer a {
 .headshot-about {
   width: 400px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 790px) {
+  .hero {
+    padding: 2px;
+    margin-left: 10px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    margin-left: 10px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  .hero h4 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .hero footer {
+    font-size: 8px;
+  }
+  .hero-buttons {
+    margin-left: 10px;
+  }
+  .headshot-index {
+    width: 300px;
+    display: block;
+  }
+
+  .about-section img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1399px) {
+  .hero h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 1199px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 960px) {
+  .projects p {
+    font-size: 12px;
+  }
+  .project-design {
+    text-align: center;
+  }
+  .projects h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 }
