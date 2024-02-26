@@ -39,8 +39,8 @@
     <button
       class="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#navbarNavAltMarkup"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup"
       aria-expanded="false"
       aria-label="Toggle navigation"
@@ -52,12 +52,23 @@
       id="navbarNavAltMarkup"
     >
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="/"
+        <a class="nav-item nav-link" href="/" title="homepage"
           >Home<span class="sr-only"></span
         ></a>
-       <a class="nav-item nav-link px-5" href="/about.html">About</a>
-      <a class="nav-item nav-link" href="/projects.html">Projects</a>
-      <a class="nav-item nav-link px-5" href="/contact.html">Contact</a>
+
+        <a class="nav-item nav-link px-5" href="/about.html" title="about Haley"
+          >About</a
+        >
+        <a
+          class="nav-item nav-link"
+          href="/projects.html"
+          title="Haley's projects"
+          >Projects</a
+        >
+        <a class="nav-item nav-link px-5" href="/contact.html" title="contact"
+          >Contact</a
+        >
+      </div>
     </div>
   </nav>
   <body>
@@ -81,7 +92,7 @@
         <div class="col-md-6 ps-5 text-center">
           <img
             src="images/headshot-square.png"
-            alt="headshot"
+            alt="headshot of Haley"
             width="400px"
             class="headshot-about img-fluid rounded"
           />
@@ -95,10 +106,16 @@
         >bowershaley3@gmail.com</a
       >
       <div class="social-links mb-4 mt-2">
-        <a href="https://github.com/bowershaley" target="_blank"
+        <a
+          href="https://github.com/bowershaley"
+          target="_blank"
+          title="Github profile"
           ><i class="fa-brands fa-github"></i
         ></a>
-        <a href="https://www.linkedin.com/in/haley-bowers/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/haley-bowers/"
+          target="_blank"
+          title="Linkedin profile"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
