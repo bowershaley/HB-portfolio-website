@@ -117,8 +117,7 @@ footer a {
   font-family: var(--secondary-font-family);
   text-align: center;
 }
-
-.email-link {
+.contact-section a {
   color: black;
 }
 
