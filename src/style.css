@@ -4,6 +4,16 @@
   --secondary-font-family: "Roboto", sans-serif;
 }
 
+nav {
+  font-family: var(--secondary-font-family);
+}
+nav a:hover {
+  font-style: italic;
+}
+.active {
+  color: black !important;
+  font-weight: bold !important;
+}
 .hero h1 {
   font-family: var(--heading-font-family);
   font-size: 100px;
