@@ -10,10 +10,7 @@ nav {
 nav a:hover {
   font-style: italic;
 }
-.active {
-  color: black !important;
-  font-weight: bold !important;
-}
+
 footer .email-link {
   font-size: 18px;
   text-align: center;
@@ -156,6 +153,20 @@ footer a {
   font-family: var(--heading-font-family);
   font-size: 20px;
   text-align: center;
+}
+
+.resume-download-button {
+  display: block;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.resume-img {
+  max-width: 70%;
+  max-height: 70%;
+  margin: auto;
+  display: block;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 @media (max-width: 790px) {
